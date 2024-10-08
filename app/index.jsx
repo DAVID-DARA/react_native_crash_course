@@ -4,6 +4,8 @@ import { images } from '../constants'
 import { Redirect, router } from 'expo-router';
 import CustomButton from "../components/CustomButton";
 import { StatusBar } from "expo-status-bar";
+import { useEffect } from "react";
+import { createUser } from "../lib/appwrite";
 
 export default function App() {
     return (
